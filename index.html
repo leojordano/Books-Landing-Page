@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Landing Page</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/rocecss@1.0.4/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.28.0/feather.min.js">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body reset>
+    
+    <header center>
+        <div class="side-one">
+            <i class="fa fa-bars icon-bars"></i>
+            <h1>LeoJordano</h1>
+        </div>
+
+        <div class="side-two">
+            
+            <label for="input">
+                <i data-feather='menu'></i>
+                <i class="fa fa-search"></i>
+                <input type="text" id="input">
+            </label>
+        </div>
+    </header>
+    
+    <main flex fa='center'>
+        <section w='100px' h='70vh' flex='column' fj='space-around' fa='center'>
+            <div h='200px' flex='column' fj='space-around' fa='center'>
+                <i class="fa fa-book"></i>
+                <i class="fa fa-headphones"></i>
+                <i class="fa fa-bookmark"></i>
+            </div>
+        </section>
+
+        <section center w='100%' h='70vh'>
+            <div class="dec"></div>
+            
+            <div class="cont-cards" h='100%' w='100%' flex fj='space-around' fa='center'>
+                <div class="book" flex>
+                    <div w='130px' h='200px' bg-red></div>
+                    <h4 class="lengend">Book 1</h4>
+                </div>
+                <div class="book" flex>
+                    <div w='130px' h='200px' bg-blue></div>
+                    <h4 class="lengend">Book 2</h4>
+                </div>
+                <div class="book" flex>
+                    <div w='130px' h='200px' bg-green></div>
+                    <h4 class="lengend">Book 3</h4>
+                </div>
+              
+                
+            </div>
+            
+        </section>
+    </main>
+
+    <footer w='100%' h='20vh'>
+        <section w='10%' h='100%' flex fj='center' fa='center'>
+            <i class="fa fa-home"></i>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/rocecss@1.0.4/script.js"></script>
+</body>
+</html>

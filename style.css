@@ -1,0 +1,61 @@
+.icon-bars {
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.side-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-one h1 {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.side-two {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-two i {
+    margin-right: 5px;
+    position: relative;
+}
+
+.side-two label {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    width: 200px;
+    display: flex;
+}
+
+.side-two input {   
+    background-color: none;
+}
+
+.side-two input:focus {
+    outline: none;
+}
+
+section {
+    font-size: 35px;
+}
+
+div.dec {
+    width: 700px;
+    height: 400px;
+    background-color: rgb(252, 190, 97);
+    opacity: 20%;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
